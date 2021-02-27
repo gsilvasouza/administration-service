@@ -16,7 +16,7 @@ spec:
       #- name: dockersecret
       containers:
       - name: administration-service
-        image: jpcallerani/administration-service:latest
+        image: gsilvasouza/administration-service:latest
         ports:
         - containerPort: 8060
    
